@@ -1,0 +1,22 @@
+{
+  "name": "bao_brothers",
+  "description": "",
+  "main": "gulpfile.js",
+  "authors": [
+    "jk <strel.jk.93@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "v4.0.0-beta",
+    "font-awesome": "fontawesome#^4.7.0"
+  }
+}
