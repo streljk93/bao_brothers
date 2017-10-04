@@ -2870,13 +2870,13 @@ tbody.collapse.show {
     background-color: #1d2124; }
 
 .jumbotron {
-  padding: 1.2rem 0.6rem;
-  margin-bottom: 1.2rem;
+  padding: 0 0;
+  margin-bottom: 0;
   background-color: transparent;
   border-radius: 0; }
   @media (min-width: 576px) {
     .jumbotron {
-      padding: 2.4rem 1.2rem; } }
+      padding: 0 0; } }
 
 .jumbotron-fluid {
   padding-right: 0;
@@ -8990,44 +8990,14 @@ a {
   color: silver;
   text-decoration: none; }
 
-/*==========  Desktop First  ==========*/
-/* Large Devices, Wide Screens */
-@media only screen and (max-width: 1200px) {
-  /**/ }
+@media (max-width: 991px) {
+  .desktop {
+    display: none !important; }
+  .mobile {
+    display: block !important; } }
 
-/* Medium Devices, Desktops */
-@media only screen and (max-width: 992px) {
-  /**/ }
-
-/* Small Devices, Tablets */
-@media only screen and (max-width: 768px) {
-  /**/ }
-
-/* Extra Small Devices, Phones */
-@media only screen and (max-width: 480px) {
-  /**/ }
-
-/* Custom, iPhone Retina */
-@media only screen and (max-width: 320px) {
-  /**/ }
-
-/*==========  Mobile First  ==========*/
-/* Custom, iPhone Retina */
-@media only screen and (min-width: 320px) {
-  /**/ }
-
-/* Extra Small Devices, Phones */
-@media only screen and (min-width: 480px) {
-  /**/ }
-
-/* Small Devices, Tablets */
-@media only screen and (min-width: 768px) {
-  /**/ }
-
-/* Medium Devices, Desktops */
-@media only screen and (min-width: 992px) {
-  /**/ }
-
-/* Large Devices, Wide Screens */
-@media only screen and (min-width: 1200px) {
-  /**/ }
+@media (min-width: 768px) {
+  .desktop {
+    display: block !important; }
+  .mobile {
+    display: none !important; } }
