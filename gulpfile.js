@@ -27,7 +27,7 @@ gulp.task('browser-sync', function() {
 gulp.task('jsLib', function() {
 	return gulp.src([
 		'app/libs/jquery/dist/jquery.min.js',
-		'app/libs/popper.js/dist/popper.min.js',
+		// 'app/libs/popper.js/dist/popper.min.js',
 		'app/libs/bootstrap/dist/js/bootstrap.min.js',
 	])
 	.pipe(concat('libs.min.js'))
