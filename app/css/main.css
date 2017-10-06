@@ -8943,6 +8943,13 @@ template {
     font-weight: bold;
     display: inline-block; }
 
+.jcontent__right {
+  padding-top: 15px;
+  background: white; }
+
+.jblock {
+  padding: 15px 0; }
+
 .rotate {
   writing-mode: vertical-rl;
   text-orientation: upright; }
@@ -8984,7 +8991,8 @@ body {
   line-height: 1.75;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   overflow-x: hidden;
-  opacity: 1; }
+  opacity: 1;
+  background: #f8f9fa; }
 
 a {
   color: silver;
